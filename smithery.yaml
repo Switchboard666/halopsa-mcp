@@ -1,10 +1,13 @@
 name: halopsa-mcp
 description: HaloPSA Model Context Protocol Server for Retool Agents
-entrypoint: dist/index.js
-runtime: nodejs20
+runtime: container
+
+startCommand:
+  - node
+  - dist/index.js
 
 env:
   HALOPSA_URL: https://switchboardcan.halopsa.com/api
   HALOPSA_CLIENT_ID: 562b666f-dbbe-424d-bbaa-9b604069b1b5
-  HALOPSA_CLIENT_SECRET: f12aba3c-11b3-44d5-8229-46f017b9c784-21afdd9e-1095-4b2e-89bd-4e285ac1e385
+  HALOPSA_CLIENT_SECRET: f12aba3c-11b3-44d5-8229-46f017b9c784-21afdd9e-1095-4e285ac1e385
   HALOPSA_TENANT: switchboardcan
