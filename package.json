@@ -11,6 +11,7 @@
     "prepublish": "npm run build || echo 'Skipping build step'"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
     "dotenv": "^16.4.0",
     "express": "^4.19.2",
     "node-fetch": "^3.3.2",
@@ -18,7 +19,8 @@
   },
   "devDependencies": {
     "typescript": "^5.4.5",
-    "tsx": "^4.7.1"
+    "tsx": "^4.7.1",
+    "@types/node": "^20.11.30"
   },
   "type": "module"
 }
