@@ -1,11 +1,13 @@
 name: halopsa-mcp
 description: HaloPSA Model Context Protocol Server for Retool Agents
-runtime: container
+runtime: http
 
 startCommand:
+  type: http
   command: node
   args:
     - dist/index.js
+  port: 3000
 
 env:
   HALOPSA_URL: https://switchboardcan.halopsa.com/api
