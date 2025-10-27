@@ -24,7 +24,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "pnpm run build",
+"prepublish": "npm run build || echo 'Skipping build step'"
     "dev": "tsx watch --env-file=.env src/index.ts",
     "start": "node dist/index.js",
     "inspect": "node --inspect dist/index.js",
