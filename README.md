@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server that provides access to HaloPSA's reporting and REST APIs, allowing AI assistants to query and analyze HaloPSA data intelligently.
 
+<a href="https://glama.ai/mcp/servers/@Switchboard666/halopsa-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Switchboard666/halopsa-mcp/badge" alt="HaloPSA Server MCP server" />
+</a>
+
 ## Features
 
 - 🔐 Secure OAuth2 authentication with HaloPSA API
